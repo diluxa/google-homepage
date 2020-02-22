@@ -1,3 +1,11 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
+//////////////////// 
+-------HEADER-------
+////////////////////
+*/
 .search-section {
     /* border: 1px solid red; */
     display: flex;
@@ -94,8 +102,8 @@
     border-radius: 100%;
     cursor: pointer;
 }
-/* NAV */
-.container {
+/*//////////////////// NAV ////////////////////*/
+.container-nav {
     border-bottom: 1px solid #ebebeb;
     padding: 0 150px;
 }
@@ -132,3 +140,76 @@
 .nav-section li a:hover {
     color: #1A73E8;
 }
+/*
+//////////////////// 
+--------MAIN--------
+////////////////////
+*/
+/*//////////////////// NAV INFOS ////////////////////*/
+.container-main {
+    /* border: 1px solid red; */
+    /* padding: 0 160px; */
+    margin-left: 160px;
+    width: 610px;
+}
+.nav-infos {
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+.nav-infos p {
+    /* border: 1px solid red; */
+    font-size: 14px;
+    color: #70757a;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+/*//////////////////// ARTICLES ////////////////////*/
+article a {
+    color: #1a0dab;
+    text-decoration: none;
+    font-size: 14px;
+}
+article a:hover {
+    text-decoration: underline;
+}
+.article-link {
+    margin-bottom: 5px;
+}
+.article-link cite {
+    /* border: 1px solid red; */
+    font-style: normal;
+    color: #3C4043;
+    font-size: 14px;
+    line-height: 2.5;
+}
+.fa-article {
+    /* border: 1px solid red; */
+    position: relative;
+    bottom: 3px;
+    margin: 0 2px;
+}
+.article-link a h3 {
+    font-size: 20px;
+    font-weight: normal;
+}
+.article-description {
+    font-size: 14px;
+}
+.article-description p {
+    line-height: 1.5;
+    color: #3C4043;
+}
+.article-description span:first-child {
+    color: #70757a;
+}
+.article-description span:nth-child(2) {
+    font-weight: bold;
+}
+.sub-nav ul {
+    display: flex;
+}
+.sub-nav ul li {
+    /* border: 1px solid red; */
+    padding: 0 3px; 
+}
+/*//////////////////// VIDEO COLUMNS ////////////////////*/
