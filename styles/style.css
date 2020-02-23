@@ -167,7 +167,7 @@ html {
 /*//////////////////// ARTICLES ////////////////////*/
 article {
     /* border: 1px solid red; */
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 article a {
     color: #1a0dab;
@@ -225,6 +225,7 @@ article a:hover {
     grid-template-columns: repeat(3,1fr);
     column-gap: 10px;
     position: relative;
+    margin-bottom: 30px;
 }
 .video-grid-btn {
     width: 36px;
@@ -249,6 +250,7 @@ article a:hover {
     cursor: pointer;
 } 
 .video-title {
+    /* border: 1px solid red; */
     font-size: 20px;
     font-weight: normal;
     padding-left: 15px;
