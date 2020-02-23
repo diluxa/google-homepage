@@ -473,3 +473,47 @@ article a:hover {
 --------FOOTER--------
 ////////////////////
 */
+footer {
+    background-color: #f2f2f2;
+}
+.container-footer {
+    /* border: 1px solid red; */
+    white-space: nowrap;
+    margin-left: 160px;
+    padding-top: 15px;
+    font-size: 14px;
+    color: #5f6368;
+    border-top: 1px solid #e4e4e4;
+}
+.container-footer p {
+    margin-bottom: 15px;
+}
+.container-footer span:first-child {
+    border-left: 1px solid #e4e4e4;
+    margin: 0 15px;
+}
+.container-footer span:nth-child(2) {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #9e9e9e;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+.container-footer span:nth-child(3) {
+    font-weight: bold;
+    color: #333;
+}
+.container-footer nav {
+    border-top: 1px solid #e4e4e4;
+    padding: 15px 0;
+}
+.container-footer nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.container-footer nav ul li a {
+    color: #5f6368;
+    text-decoration: none;
+}
+
