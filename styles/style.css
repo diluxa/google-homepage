@@ -37,6 +37,7 @@ html {
     margin: 0;
     padding: 0 20px;
     background-color: transparent;
+    font-size: 16px;
 }
 .search-icons {
     display: flex;
@@ -164,6 +165,10 @@ html {
     white-space: nowrap;
 }
 /*//////////////////// ARTICLES ////////////////////*/
+article {
+    /* border: 1px solid red; */
+    margin-bottom: 30px;
+}
 article a {
     color: #1a0dab;
     text-decoration: none;
@@ -206,10 +211,95 @@ article a:hover {
     font-weight: bold;
 }
 .sub-nav ul {
+    /* border: 1px solid red; */
     display: flex;
 }
 .sub-nav ul li {
     /* border: 1px solid red; */
     padding: 0 3px; 
 }
-/*//////////////////// VIDEO COLUMNS ////////////////////*/
+/*//////////////////// VIDEO CARDS ////////////////////*/
+.video-grid {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+    position: relative;
+}
+.video-grid-btn {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #dfe1e5;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.04),0 4px 8px 0 rgba(0,0,0,0.20);
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    right: -45px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.video-grid-btn svg {
+    fill: #757575;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+} 
+.video-title {
+    font-size: 20px;
+    font-weight: normal;
+    padding-left: 15px;
+}
+.video-card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #dfe1e5;
+}
+.video-card img {
+    width: 200px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.video-play-icon {
+    /* border: 1px solid red; */
+    position: relative;
+    cursor: pointer;
+}
+.video-play-icon svg {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.video-card a {
+    text-decoration: none;
+    color: #1a0dab;
+    padding: 15px;
+    line-height: 1.3;
+    height: 70px;
+}
+.video-card-infos {
+    padding: 25px 0 0 15px;
+}
+.video-card-infos p:first-child {
+    font-size: 14px;
+    line-height: 1.3;
+    padding: 2px 0;
+    color: #808080;
+}
+.video-card-infos p:nth-child(2) {
+    font-size: 12px;
+    line-height: 1.3;
+    padding: 2px 0;
+    color: #808080;
+}
+.video-card-infos p span {
+    color:black;
+}
